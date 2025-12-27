@@ -33,7 +33,6 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab1o = MakeTab({Name = "Script Blox Fruits"})
      local Tab2o = MakeTab({Name = "Khác"})
      local Tab3o = MakeTab({Name = "99 ngày Trong rừng"})
-     local Tab4o = MakeTab({Name = "Key"})
      local Tab5o = MakeTab({Name = "Thông báo"})
      
 ------- BUTTON
@@ -179,11 +178,5 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepza
        getgenv().Team = "Marines"
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/longdwieh/HoangLong-script/refs/heads/main/HoangLongHub.lua.txt"))()
-  end
-  })
-  AddButton(Tab4o, {
-     Name = "Key pvp",
-    Callback = function() 
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/huytong233-hue/Key-pvp/refs/heads/main/Keyyyyyy"))()
   end
   })
