@@ -181,7 +181,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepza
 loadstring(game:HttpGet("https://raw.githubusercontent.com/longdwieh/HoangLong-script/refs/heads/main/HoangLongHub.lua.txt"))()
   end
   })
-  AddButton(Tab1o, {
+  AddButton(Tab5o, {
      Name = "Key pvp",
      Description = "Click(Copy)",
     Callback = function() 
