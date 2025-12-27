@@ -33,8 +33,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab1o = MakeTab({Name = "Script Blox Fruits"})
      local Tab2o = MakeTab({Name = "Khác"})
      local Tab3o = MakeTab({Name = "99 ngày Trong rừng"})
-     local Tab4o = MakeTab({Name = "Thông báo"})
-local Tab5o = MakeTab({Name = "Key"})
+     local Tab4o = MakeTab({Name = "Key"})
+     local Tab5o = MakeTab({Name = "Thông báo"})
      
 ------- BUTTON
 
@@ -148,7 +148,7 @@ AddButton(Tab1o, {
        loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Pvp/refs/heads/main/Huypvp"))()
   end
   })
-AddButton(Tab4o, {
+AddButton(Tab5o, {
      Name = "Thông báo của script Bear Hud tổng hợp",
     Callback = function()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Bear-hud-/refs/heads/main/Updatescript"))()
@@ -181,10 +181,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepza
 loadstring(game:HttpGet("https://raw.githubusercontent.com/longdwieh/HoangLong-script/refs/heads/main/HoangLongHub.lua.txt"))()
   end
   })
-  AddButton(Tab5o, {
+  AddButton(Tab4o, {
      Name = "Key pvp",
-Description = "Click(Copy)",
     Callback = function() 
-       tIljtIJltIjltjtiljtIltjitjft
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/huytong233-hue/Key-pvp/refs/heads/main/Keyyyyyy"))()
   end
   })
