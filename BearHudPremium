@@ -47,6 +47,13 @@ AddButton(Tab1o, {
   end
   })
 AddButton(Tab1o, {
+     Name = "NHT X hub",
+    Callback = function()
+	  getgenv().Team = "Pirates"
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/trongdeptraihucscript/Main/refs/heads/main/Hoangtrongdepzai.lua"))()
+  end
+  })
+AddButton(Tab1o, {
      Name = "Redz real New 100% (working)",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/huy384/redzHub/refs/heads/main/redzHub.lua"))()
@@ -254,5 +261,13 @@ AddButton(Tab1o, {
      Name = "Aurora",
     Callback = function() 
        loadstring(game:HttpGet("https://raw.githubusercontent.com/Jadelly261/BloxFruits/main/Aurora"))()
+  end
+  })
+AddButton(Tab1o, {
+     Name = "auto chest",
+    Callback = function()
+      repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+      getgenv().Team = "Marines"
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/trongdeptraihucscript/Main/refs/heads/main/TN-Tp-Chest.lua"))()
   end
   })
