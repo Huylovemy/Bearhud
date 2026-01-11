@@ -1,1 +1,280 @@
-bG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoKCJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vZGF1Y29ib25oaS9VaS1SZWR6LVYyL3JlZnMvaGVhZHMvbWFpbi9VaVJFRHpWMi5sdWEiKSkpKCkKCiAgICAgIAogICAgICAgbG9jYWwgV2luZG93ID0gTWFrZVdpbmRvdyh7CiAgICAgICAgIEh1YiA9IHsKICAgICAgICAgVGl0bGUgPSAiQmVhciBIdWQoUHJlbWl1bSkgICAgICAgICAgICAgICAgICAgICAgYnkgUXVhbmcgSHV5IiwKICAgICAgICAgQW5pbWF0aW9uID0gIkLhuqNuIHByZW1pdW0iCiAgICAgICAgIH0sCiAgICAgICAgS2V5ID0gewogICAgICAgIEtleVN5c3RlbSA9IGZhbHNlLAogICAgICAgIFRpdGxlID0gIkh1eSBU4buVbmcgSOG7o3AiLAogICAgICAgIERlc2NyaXB0aW9uID0gIkTDuW5nIFNjcmlwdCBWdWkgVuG6uyIsCiAgICAgICAgS2V5TGluayA9ICJodHRwczovL2xpbms0bS5jb20va2p6VmFSQWgiLAogICAgICAgIEtleXMgPSB7IiJ9LAogICAgICAgIE5vdGlmaSA9IHsKICAgICAgICBOb3RpZmljYXRpb25zID0gdHJ1ZSwKICAgICAgICBDb3JyZWN0S2V5ID0gIkhlbGxvIGZlbiIsCiAgICAgICBJbmNvcnJlY3RrZXkgPSAiQuG6o24gcHJlbWl1bSBjw7Mga2V5IMSRw6J1IG3DoCBuaOG6rXAga2V5IiwKICAgICAgfQogICAgfQogIH0pCgogICAgICAgTWluaW1pemVCdXR0b24oewogICAgICAgSW1hZ2UgPSAiaHR0cDovL3d3dy5yb2Jsb3guY29tL2Fzc2V0Lz9pZD0xMzQ4NTIxMTM3MTYxNzEiLAogICAgICAgU2l6ZSA9IHsyNSwgMjV9LAogICAgICAgQ29sb3IgPSBDb2xvcjMuZnJvbVJHQigyNTUsMjU1LDI1NSksCiAgICAgICBDb3JuZXIgPSB0cnVlLAogICAgICAgU3Ryb2tlID0gZmFsc2UsCiAgICAgICBTdHJva2VDb2xvciA9IENvbG9yMy5mcm9tUkdCKDI1NSwgMCwgMCksCiAgICAgICAgICAgICAgICAgICAgIENvbG9yMy5mcm9tUkdCKDAsIDAsIDApLAogICAgICAgICAgICAgICAgICAgICBDb2xvcjMuZnJvbVJHQigyNTUsMjU1LDI1NSkKICAgICAgfSkKICAgICAgCi0tLS0tLSBUYWIKICAgICBsb2NhbCBUYWIxbyA9IE1ha2VUYWIoe05hbWUgPSAiU2NyaXB0IEJsb3ggRnJ1aXRzIn0pCiAgICAgbG9jYWwgVGFiMm8gPSBNYWtlVGFiKHtOYW1lID0gIktow6FjIn0pCiAgICAgbG9jYWwgVGFiM28gPSBNYWtlVGFiKHtOYW1lID0gIjk5IG5nw6B5IFRyb25nIHLhu6tuZyJ9KQogICAgIGxvY2FsIFRhYjRvID0gTWFrZVRhYih7TmFtZSA9ICJIb3AgU2V2ZXIifSkKICAgICBsb2NhbCBUYWI1byA9IE1ha2VUYWIoe05hbWUgPSAiVGjDtG5nIGLDoW8ifSkKICAgICAKLS0tLS0tLSBCVVRUT04KCkFkZEJ1dHRvbihUYWIxbywgewogICAgIE5hbWUgPSAiUHZQIG5ldyIsCiAgICBDYWxsYmFjayA9IGZ1bmN0aW9uKCkKCSAgbG9jYWwgc2NyaXB0X21vZGUgPSAiUFZQIiAtLSBQVlAsIEZBUk0KbG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9oZXJtYW5vcy1kZXYvaGVybWFub3MtaHViL3JlZnMvaGVhZHMvbWFpbi9Mb2FkZXIubHVhIikpKCkKICBlbmQKICB9KQpBZGRCdXR0b24oVGFiMW8sIHsKICAgICBOYW1lID0gIk5hbmEiLAogICAgQ2FsbGJhY2sgPSBmdW5jdGlvbigpCgkgIGxvYWRzdHJpbmcoZ2FtZTpIdHRwR2V0KCJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vTmFOYWN1dGkvbmFuYWJlby9yZWZzL2hlYWRzL21haW4vTmFOYVRWSHViLmx1YSIpKSgpCiAgZW5kCiAgfSkKQWRkQnV0dG9uKFRhYjFvLCB7CiAgICAgTmFtZSA9ICJOSFQgWCBodWIiLAogICAgQ2FsbGJhY2sgPSBmdW5jdGlvbigpCgkgIGdldGdlbnYoKS5UZWFtID0gIlBpcmF0ZXMiCiAgICAgIGxvYWRzdHJpbmcoZ2FtZTpIdHRwR2V0KCJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vdHJvbmdkZXB0cmFpaHVjc2NyaXB0L01haW4vcmVmcy9oZWFkcy9tYWluL0hvYW5ndHJvbmdkZXB6YWkubHVhIikpKCkKICBlbmQKICB9KQpBZGRCdXR0b24oVGFiMW8sIHsKICAgICBOYW1lID0gIlJlZHogcmVhbCBOZXcgMTAwJSAod29ya2luZykiLAogICAgQ2FsbGJhY2sgPSBmdW5jdGlvbigpCgkgIGxvYWRzdHJpbmcoZ2FtZTpIdHRwR2V0KCJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vaHV5Mzg0L3JlZHpIdWIvcmVmcy9oZWFkcy9tYWluL3JlZHpIdWIubHVhIikpKCkKICBlbmQKICB9KQpBZGRCdXR0b24oVGFiMW8sIHsKICAgICBOYW1lID0gIkJlYXIgaHVkIiwKICAgIENhbGxiYWNrID0gZnVuY3Rpb24oKQoJICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCgiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0h1eWxvdmVteS9IdXlzY3JpcHQvcmVmcy9oZWFkcy9tYWluL25ld3NjcmlwdC50eHQiKSkoKQogIGVuZAogIH0pCkFkZEJ1dHRvbihUYWIybywgewogICAgIE5hbWUgPSAiUmluZyIsCiAgICBDYWxsYmFjayA9IGZ1bmN0aW9uKCkKICAgIGxvYWRzdHJpbmcoZ2FtZTpIdHRwR2V0KCJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vSHV5bG92ZW15L0JlYXJodWRob3AvcmVmcy9oZWFkcy9tYWluL0h1eWxvdmV3aWZlbXkiKSkoKQogIGVuZAogIH0pCkFkZEJ1dHRvbihUYWIybywgewogICAgIE5hbWUgPSAiUGx5IiwKICAgIENhbGxiYWNrID0gZnVuY3Rpb24oKQoJICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCgiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0h1eWxvdmVteS9CZWFyaHVkcGx5L3JlZnMvaGVhZHMvbWFpbi9CZWFyaHVkIikpKCkKICBlbmQKICB9KQpBZGRCdXR0b24oVGFiMW8sIHsKICAgICBOYW1lID0gIkx1Y2t5IiwKICAgIENhbGxiYWNrID0gZnVuY3Rpb24oKQoJICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCgiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1l0emVubzk5L2J1ZmZsdWNreS9yZWZzL2hlYWRzL21haW4vTHVjS3lSYWRvbUZydWl0Lmx1YSIpKSgpCiAgZW5kCiAgfSkKQWRkQnV0dG9uKFRhYjFvLCB7CiAgICAgTmFtZSA9ICJCbHVlIFggSHVkIiwKICAgIENhbGxiYWNrID0gZnVuY3Rpb24oKQoJICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCgiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0Rldi1CbHVlWC9CbHVlWC1IdWIvcmVmcy9oZWFkcy9tYWluL01haW4ubHVhIikpKCkKICBlbmQKICB9KQpBZGRCdXR0b24oVGFiMW8sIHsKICAgICBOYW1lID0gIk5pZ2h0IGh1ZCIsCiAgICBDYWxsYmFjayA9IGZ1bmN0aW9uKCkKCWxvYWRzdHJpbmcoZ2FtZTpIdHRwR2V0KCJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vV2hpdGVYMTIwOC9TY3JpcHRzL3JlZnMvaGVhZHMvbWFpbi9CRi1CZXRhLmx1YSIpKSgpCiAgZW5kCiAgfSkKICAgIEFkZEJ1dHRvbihUYWIxbywgewogICAgIE5hbWUgPSAiVHXhuqVuIEFuaCBJT1MiLAogICAgQ2FsbGJhY2sgPSBmdW5jdGlvbigpCgkgIGxvYWRzdHJpbmcoZ2FtZTpIdHRwR2V0KCJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vQW5oVHVhbkR6YWktSHViL1R1YW5BbmhJT1MvcmVmcy9oZWFkcy9tYWluL1R1YW5BbmhJT1MubHVhIikpKCkKICBlbmQKICB9KQpBZGRCdXR0b24oVGFiMW8sIHsKICAgICBOYW1lID0gIlJpc2UtRXZvIiwKICAgIENhbGxiYWNrID0gZnVuY3Rpb24oKQoJICBnZXRnZW52KCkuVGVhbSA9ICJQaXJhdGVzIiAtLU1hcmluZXMsIFBpcmF0ZXMKbG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoJ2h0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9UcmFzaEx1YS9CbG94RnJ1aXRzL21haW4vbG9hZGRlci5sdWEnKSkoKQogIGVuZAogIH0pCiAgICBBZGRCdXR0b24oVGFiMW8sIHsKICAgICBOYW1lID0gIkh1eSBUb3AgUFZQIiwKICAgIENhbGxiYWNrID0gZnVuY3Rpb24oKQoJICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCgiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0h1eWxvdmVteS9IdXktVG9wLVB2UC9yZWZzL2hlYWRzL21haW4vUFZQJTIwdG9wIikpKCkKICBlbmQKICB9KQogIEFkZEJ1dHRvbihUYWIxbywgewogICAgIE5hbWUgPSAiR3Jhdml0eSBIdWQiLAogICAgQ2FsbGJhY2sgPSBmdW5jdGlvbigpIAogICAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCgiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0Rldi1HcmF2aXR5SHViL0Jsb3hGcnVpdC9yZWZzL2hlYWRzL21haW4vTWFpbi5sdWEiKSkoKQogIGVuZAogIH0pCiAgQWRkQnV0dG9uKFRhYjJvLCB7CiAgICAgTmFtZSA9ICJIdXkgUGx5IiwKICAgIENhbGxiYWNrID0gZnVuY3Rpb24oKSAKICAgICAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCgiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2h1eXRvbmcyMzMtaHVlL1Bscy9yZWZzL2hlYWRzL21haW4vSHV5cGx5IikpKCkKICBlbmQKICB9KQogIEFkZEJ1dHRvbihUYWIybywgewogICAgIE5hbWUgPSAiRml4IExhZyIsCiAgICBDYWxsYmFjayA9IGZ1bmN0aW9uKCkgCiAgICAgICAgbG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9USUtUT0stQk9ZQ0hPSUdBTUUvUEgtSUNILVUvcmVmcy9oZWFkcy9tYWluL0ZJWExBR1YyLkJPWUNIT0lHQU1FIikpKCkKICBlbmQKICB9KQogIEFkZEJ1dHRvbihUYWIybywgewogICAgIE5hbWUgPSAiRVNQIGFuZCBBTSIsCiAgICBDYWxsYmFjayA9IGZ1bmN0aW9uKCkgCiAgICAgICAgbG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9IdXlsb3ZlbXkvSGFjay9yZWZzL2hlYWRzL21haW4vSHV5ZGVwemFpMjA5IikpKCkKICBlbmQKICB9KQpBZGRCdXR0b24oVGFiMm8sIHsKICAgICBOYW1lID0gIkdvZCBtb2QgdjEiLAogICAgQ2FsbGJhY2sgPSBmdW5jdGlvbigpIAogICAgICAgIGxvYWRzdHJpbmcoZ2FtZTpIdHRwR2V0KCJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vbWlnbGVsczMzL0dvZC1Nb2RlLVNjcmlwdC9yZWZzL2hlYWRzL21haW4vR29kTW9kZVNjcmlwdC5tZCIpKSgpCiAgZW5kCiAgfSkKICBBZGRCdXR0b24oVGFiMm8sIHsKICAgICBOYW1lID0gIkh1eSBoaXRib3giLAogICAgQ2FsbGJhY2sgPSBmdW5jdGlvbigpIAogICAgICAgIGxvYWRzdHJpbmcoZ2FtZTpIdHRwR2V0KCJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vSHV5bG92ZW15L0hpdGJveGdhbWUvcmVmcy9oZWFkcy9tYWluL0hpdGJveGdhbWUiKSkoKQogIGVuZAogIH0pCiAgQWRkQnV0dG9uKFRhYjFvLCB7CiAgICAgTmFtZSA9ICJQdlAgVG9wIiwKICAgIENhbGxiYWNrID0gZnVuY3Rpb24oKSAKICAgICAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCgiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0tyb3Z5bi9Lcm92eW5IdWIvcmVmcy9oZWFkcy9tYWluL1RPUF9QVlAiKSkoKQogIGVuZAogIH0pCkFkZEJ1dHRvbihUYWIybywgewogICAgIE5hbWUgPSAiR29kIG1vZCB2MiIsCiAgICBDYWxsYmFjayA9IGZ1bmN0aW9uKCkgCiAgICAgICAgbG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9SYXdicjEwL1JvYmxveC1TY3JpcHRzL3JlZnMvaGVhZHMvbWFpbi9Hb2QlMjBNb2RlJTIwU2NyaXB0JTIwVW5pdmVyc2FsIikpKCkKICBlbmQKICB9KQogIEFkZEJ1dHRvbihUYWIxbywgewogICAgIE5hbWUgPSAiUHZQKGtleTp0SWxqdElKbHRJamx0anRpbGp0SWx0aml0amZ0KSIsCiAgICBDYWxsYmFjayA9IGZ1bmN0aW9uKCkgCiAgICAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCgiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1BhcmFkb3pDb2RlL0NlbnR1RG94LUh1Yi1QYXJhZG96LUh1Yi9yZWZzL2hlYWRzL21haW4vQ2VudHVEb3gueHl6IiwgdHJ1ZSkpKCkKICBlbmQKICB9KQpBZGRCdXR0b24oVGFiMm8sIHsKICAgICBOYW1lID0gIkh1eSBtb2QiLAogICAgQ2FsbGJhY2sgPSBmdW5jdGlvbigpIAogICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCgiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0h1eWxvdmVteS9IdXktbW9kL3JlZnMvaGVhZHMvbWFpbi9IdXklMjBtb2QiKSkoKSAgICAgCiAgZW5kCiAgfSkKQWRkQnV0dG9uKFRhYjJvLCB7CiAgICAgTmFtZSA9ICJBbWJvdCIsCiAgICBDYWxsYmFjayA9IGZ1bmN0aW9uKCkgCiAgICAgICAgbG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9Ub3RvY29lbXMvQWNlL21haW4vQWNlIikpKCkKICBlbmQKICB9KQoKQWRkQnV0dG9uKFRhYjFvLCB7CiAgICAgTmFtZSA9ICJUxINuZyBoaXRib3giLAogICAgQ2FsbGJhY2sgPSBmdW5jdGlvbigpIAogICAgICAgIGxvYWRzdHJpbmcoR2FtZTpIdHRwR2V0KCJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vVmFuVGhhbmhJT1MvT25paUNoYW5WYW5UaGFuaElPUy9yZWZzL2hlYWRzL21haW4vb25paWNoYW5wYWthdmFudGhhbmhpb3MiKSkoKQogIGVuZAogIH0pCiAgQWRkQnV0dG9uKFRhYjFvLCB7CiAgICAgTmFtZSA9ICJRdWFuIFR1bSBPbnl4IiwKICAgIENhbGxiYWNrID0gZnVuY3Rpb24oKSAKICAgICAgIGxvYWRzdHJpbmcoZ2FtZTpIdHRwR2V0KCJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vZmxhemh5L1F1YW50dW1Pbnl4L3JlZnMvaGVhZHMvbWFpbi9RdWFudHVtT255eC5sdWEiKSkoKQogIGVuZAogIH0pCiAgQWRkQnV0dG9uKFRhYjFvLCB7CiAgICAgTmFtZSA9ICJIdXkgcHZwIiwKICAgIENhbGxiYWNrID0gZnVuY3Rpb24oKSAKICAgICAgIGxvYWRzdHJpbmcoZ2FtZTpIdHRwR2V0KCJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vSHV5bG92ZW15L1B2cC9yZWZzL2hlYWRzL21haW4vSHV5cHZwIikpKCkKICBlbmQKICB9KQpBZGRCdXR0b24oVGFiNW8sIHsKICAgICBOYW1lID0gIlRow7RuZyBiw6FvIGPhu6dhIHNjcmlwdCBCZWFyIEh1ZCB04buVbmcgaOG7o3AiLAogICAgQ2FsbGJhY2sgPSBmdW5jdGlvbigpCiAgbG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9IdXlsb3ZlbXkvQmVhci1odWQtL3JlZnMvaGVhZHMvbWFpbi9VcGRhdGVzY3JpcHQiKSkoKQogIGVuZAogIH0pCiAgQWRkQnV0dG9uKFRhYjNvLCB7CiAgICAgTmFtZSA9ICJGb3huYW1lIEh1ZCIsCiAgICBDYWxsYmFjayA9IGZ1bmN0aW9uKCkKICAgICAgbG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9jYW9tb2QyMDc3L1NjcmlwdC9yZWZzL2hlYWRzL21haW4vRm94bmFtZUh1Yi5sdWEiKSkoKQogIGVuZAogIH0pCiAgQWRkQnV0dG9uKFRhYjFvLCB7CiAgICAgTmFtZSA9ICJUZWRkeSBIdWQiLAogICAgQ2FsbGJhY2sgPSBmdW5jdGlvbigpCiAgICAgIHJlcGVhdCB3YWl0KCkgdW50aWwgZ2FtZTpJc0xvYWRlZCgpIGFuZCBnYW1lLlBsYXllcnMuTG9jYWxQbGF5ZXIKbG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9UZWRkeXNlZXRpbmsvSGFpZGVwemFpL3JlZnMvaGVhZHMvbWFpbi9UZWRkeUh1Yi5sdWEiKSkoKQogIGVuZAogIH0pCiAgQWRkQnV0dG9uKFRhYjFvLCB7CiAgICAgTmFtZSA9ICJaaXMgY2h14buRaSBFRUciLAogICAgQ2FsbGJhY2sgPSBmdW5jdGlvbigpCiAgICAgIGxvYWRzdHJpbmcoZ2FtZTpIdHRwR2V0KCJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vTHVhQ3JhY2svWmlzL3JlZnMvaGVhZHMvbWFpbi9aaXNDaHVvaUVuZyIpKSgpCiAgZW5kCiAgfSkKICBBZGRCdXR0b24oVGFiMW8sIHsKICAgICBOYW1lID0gIkFwcGxlIGNhdCBodWQiLAogICAgQ2FsbGJhY2sgPSBmdW5jdGlvbigpIAogICAgICAgZ2V0Z2VudigpLlRlYW0gPSAiTWFyaW5lcyIKCmxvYWRzdHJpbmcoZ2FtZTpIdHRwR2V0KCJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vbG9uZ2R3aWVoL0hvYW5nTG9uZy1zY3JpcHQvcmVmcy9oZWFkcy9tYWluL0hvYW5nTG9uZ0h1Yi5sdWEudHh0IikpKCkKICBlbmQKICB9KQogIEFkZEJ1dHRvbihUYWIxbywgewogICAgIE5hbWUgPSAiUHZQIGFpbSBjaGnDqnUiLAogICAgQ2FsbGJhY2sgPSBmdW5jdGlvbigpIAogICAgICAgbG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9vbmlvbjEzMjAwNS1iaXQvT25pb24xMzMvcmVmcy9oZWFkcy9tYWluL1NjcmlwdC5sdWEiKSkoKQogIGVuZAogIH0pCkFkZEJ1dHRvbihUYWI0bywgewogICAgIE5hbWUgPSAiSG9wIFNldmVyIiwKICAgIENhbGxiYWNrID0gZnVuY3Rpb24oKSAKICAgICAgIGxvYWRzdHJpbmcoZ2FtZTpIdHRwR2V0KCJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vSHV5bG92ZW15L0hvcC1zdi9yZWZzL2hlYWRzL21haW4vSHV5bG92ZW15IikpKCkKICBlbmQKICB9KQpBZGRCdXR0b24oVGFiNG8sIHsKICAgICBOYW1lID0gIlRlZGR5IEhvcCBTZXZlciIsCiAgICBDYWxsYmFjayA9IGZ1bmN0aW9uKCkgCiAgICAgICByZXBlYXQgdGFzay53YWl0KCkgdW50aWwgZ2FtZTpJc0xvYWRlZCgpIGFuZCBnYW1lOkdldFNlcnZpY2UoIlBsYXllcnMiKSBhbmQgZ2FtZS5QbGF5ZXJzLkxvY2FsUGxheWVyIGFuZCBnYW1lLlBsYXllcnMuTG9jYWxQbGF5ZXI6RmluZEZpcnN0Q2hpbGQoIlBsYXllckd1aSIpCmxvYWRzdHJpbmcoZ2FtZTpIdHRwR2V0KCJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vVGVkZHlzZWV0aW5rL0hhaWRlcHphaS9yZWZzL2hlYWRzL21haW4vVEVERFlIVUItRlJFRU1JVU0iKSkoKQogIGVuZAogIH0pCkFkZEJ1dHRvbihUYWIxbywgewogICAgIE5hbWUgPSAiS2luZyBSw7lhIiwKICAgIENhbGxiYWNrID0gZnVuY3Rpb24oKSAKICAgICAgIGxvYWRzdHJpbmcoZ2FtZTpIdHRwR2V0KCJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vc2hpbmljaGktZHovcGh1Y3NoaW55ZXVlbS9yZWZzL2hlYWRzL21haW4vS2luZ1J1YUh1Yi5sdWEiKSkoKQogIGVuZAogIH0pCkFkZEJ1dHRvbihUYWIxbywgewogICAgIE5hbWUgPSAiQXVyb3JhIiwKICAgIENhbGxiYWNrID0gZnVuY3Rpb24oKSAKICAgICAgIGxvYWRzdHJpbmcoZ2FtZTpIdHRwR2V0KCJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vSmFkZWxseTI2MS9CbG94RnJ1aXRzL21haW4vQXVyb3JhIikpKCkKICBlbmQKICB9KQpBZGRCdXR0b24oVGFiMW8sIHsKICAgICBOYW1lID0gImF1dG8gY2hlc3QiLAogICAgQ2FsbGJhY2sgPSBmdW5jdGlvbigpCiAgICAgIHJlcGVhdCB3YWl0KCkgdW50aWwgZ2FtZTpJc0xvYWRlZCgpIGFuZCBnYW1lLlBsYXllcnMuTG9jYWxQbGF5ZXIKICAgICAgZ2V0Z2VudigpLlRlYW0gPSAiTWFyaW5lcyIKCSAgbG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS90cm9uZ2RlcHRyYWlodWNzY3JpcHQvTWFpbi9yZWZzL2hlYWRzL21haW4vVE4tVHAtQ2hlc3QubHVhIikpKCkKICBlbmQKICB9KQ==
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
+
+      
+       local Window = MakeWindow({
+         Hub = {
+         Title = "Bear Hud(Premium)                      by Quang Huy",
+         Animation = "Bản premium"
+         },
+        Key = {
+        KeySystem = false,
+        Title = "Huy Tổng Hợp",
+        Description = "Dùng Script Vui Vẻ",
+        KeyLink = "https://link4m.com/kjzVaRAh",
+        Keys = {""},
+        Notifi = {
+        Notifications = true,
+        CorrectKey = "Hello fen",
+       Incorrectkey = "Bản premium có key đâu mà nhập key",
+      }
+    }
+  })
+
+       MinimizeButton({
+       Image = "http://www.roblox.com/asset/?id=134852113716171",
+       Size = {25, 25},
+       Color = Color3.fromRGB(255,255,255),
+       Corner = true,
+       Stroke = false,
+       StrokeColor = Color3.fromRGB(255, 0, 0),
+                     Color3.fromRGB(0, 0, 0),
+                     Color3.fromRGB(255,255,255)
+      })
+      
+------ Tab
+     local Tab1o = MakeTab({Name = "Script Blox Fruits"})
+     local Tab2o = MakeTab({Name = "Khác"})
+     local Tab3o = MakeTab({Name = "99 ngày Trong rừng"})
+     local Tab4o = MakeTab({Name = "Hop Sever"})
+     local Tab5o = MakeTab({Name = "Thông báo"})
+     
+------- BUTTON
+
+AddButton(Tab1o, {
+     Name = "PvP new",
+    Callback = function()
+	  local script_mode = "PVP" -- PVP, FARM
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hermanos-dev/hermanos-hub/refs/heads/main/Loader.lua"))()
+  end
+  })
+AddButton(Tab1o, {
+     Name = "Nana",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/NaNacuti/nanabeo/refs/heads/main/NaNaTVHub.lua"))()
+  end
+  })
+AddButton(Tab1o, {
+     Name = "NHT X hub",
+    Callback = function()
+	  getgenv().Team = "Pirates"
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/trongdeptraihucscript/Main/refs/heads/main/Hoangtrongdepzai.lua"))()
+  end
+  })
+AddButton(Tab1o, {
+     Name = "Redz real New 100% (working)",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/huy384/redzHub/refs/heads/main/redzHub.lua"))()
+  end
+  })
+AddButton(Tab1o, {
+     Name = "Bear hud",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Huyscript/refs/heads/main/newscript.txt"))()
+  end
+  })
+AddButton(Tab2o, {
+     Name = "Ring",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Bearhudhop/refs/heads/main/Huylovewifemy"))()
+  end
+  })
+AddButton(Tab2o, {
+     Name = "Ply",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Bearhudply/refs/heads/main/Bearhud"))()
+  end
+  })
+AddButton(Tab1o, {
+     Name = "Lucky",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Ytzeno99/bufflucky/refs/heads/main/LucKyRadomFruit.lua"))()
+  end
+  })
+AddButton(Tab1o, {
+     Name = "Blue X Hud",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
+  end
+  })
+AddButton(Tab1o, {
+     Name = "Night hud",
+    Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/WhiteX1208/Scripts/refs/heads/main/BF-Beta.lua"))()
+  end
+  })
+    AddButton(Tab1o, {
+     Name = "Tuấn Anh IOS",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhTuanDzai-Hub/TuanAnhIOS/refs/heads/main/TuanAnhIOS.lua"))()
+  end
+  })
+AddButton(Tab1o, {
+     Name = "Rise-Evo",
+    Callback = function()
+	  getgenv().Team = "Pirates" --Marines, Pirates
+loadstring(game:HttpGet('https://raw.githubusercontent.com/TrashLua/BloxFruits/main/loadder.lua'))()
+  end
+  })
+    AddButton(Tab1o, {
+     Name = "Huy Top PVP",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Huy-Top-PvP/refs/heads/main/PVP%20top"))()
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "Gravity Hud",
+    Callback = function() 
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-GravityHub/BloxFruit/refs/heads/main/Main.lua"))()
+  end
+  })
+  AddButton(Tab2o, {
+     Name = "Huy Ply",
+    Callback = function() 
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/huytong233-hue/Pls/refs/heads/main/Huyply"))()
+  end
+  })
+  AddButton(Tab2o, {
+     Name = "Fix Lag",
+    Callback = function() 
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/TIKTOK-BOYCHOIGAME/PH-ICH-U/refs/heads/main/FIXLAGV2.BOYCHOIGAME"))()
+  end
+  })
+  AddButton(Tab2o, {
+     Name = "ESP and AM",
+    Callback = function() 
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Hack/refs/heads/main/Huydepzai209"))()
+  end
+  })
+AddButton(Tab2o, {
+     Name = "God mod v1",
+    Callback = function() 
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/miglels33/God-Mode-Script/refs/heads/main/GodModeScript.md"))()
+  end
+  })
+  AddButton(Tab2o, {
+     Name = "Huy hitbox",
+    Callback = function() 
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Hitboxgame/refs/heads/main/Hitboxgame"))()
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "PvP Top",
+    Callback = function() 
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Krovyn/KrovynHub/refs/heads/main/TOP_PVP"))()
+  end
+  })
+AddButton(Tab2o, {
+     Name = "God mod v2",
+    Callback = function() 
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Rawbr10/Roblox-Scripts/refs/heads/main/God%20Mode%20Script%20Universal"))()
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "PvP(key:tIljtIJltIjltjtiljtIltjitjft)",
+    Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/ParadozCode/CentuDox-Hub-Paradoz-Hub/refs/heads/main/CentuDox.xyz", true))()
+  end
+  })
+AddButton(Tab2o, {
+     Name = "Huy mod",
+    Callback = function() 
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Huy-mod/refs/heads/main/Huy%20mod"))()     
+  end
+  })
+AddButton(Tab2o, {
+     Name = "Ambot",
+    Callback = function() 
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Totocoems/Ace/main/Ace"))()
+  end
+  })
+
+AddButton(Tab1o, {
+     Name = "Tăng hitbox",
+    Callback = function() 
+        loadstring(Game:HttpGet("https://raw.githubusercontent.com/VanThanhIOS/OniiChanVanThanhIOS/refs/heads/main/oniichanpakavanthanhios"))()
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "Quan Tum Onyx",
+    Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua"))()
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "Huy pvp",
+    Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Pvp/refs/heads/main/Huypvp"))()
+  end
+  })
+AddButton(Tab5o, {
+     Name = "Thông báo của script Bear Hud tổng hợp",
+    Callback = function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Bear-hud-/refs/heads/main/Updatescript"))()
+  end
+  })
+  AddButton(Tab3o, {
+     Name = "Foxname Hud",
+    Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/caomod2077/Script/refs/heads/main/FoxnameHub.lua"))()
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "Teddy Hud",
+    Callback = function()
+      repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepzai/refs/heads/main/TeddyHub.lua"))()
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "Zis chuối EEG",
+    Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Zis/refs/heads/main/ZisChuoiEng"))()
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "Apple cat hud",
+    Callback = function() 
+       getgenv().Team = "Marines"
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/longdwieh/HoangLong-script/refs/heads/main/HoangLongHub.lua.txt"))()
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "PvP aim chiêu",
+    Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/onion132005-bit/Onion133/refs/heads/main/Script.lua"))()
+  end
+  })
+AddButton(Tab4o, {
+     Name = "Hop Sever",
+    Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Hop-sv/refs/heads/main/Huylovemy"))()
+  end
+  })
+AddButton(Tab4o, {
+     Name = "Teddy Hop Sever",
+    Callback = function() 
+       repeat task.wait() until game:IsLoaded() and game:GetService("Players") and game.Players.LocalPlayer and game.Players.LocalPlayer:FindFirstChild("PlayerGui")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepzai/refs/heads/main/TEDDYHUB-FREEMIUM"))()
+  end
+  })
+AddButton(Tab1o, {
+     Name = "King Rùa",
+    Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/shinichi-dz/phucshinyeuem/refs/heads/main/KingRuaHub.lua"))()
+  end
+  })
+AddButton(Tab1o, {
+     Name = "Aurora",
+    Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/Jadelly261/BloxFruits/main/Aurora"))()
+  end
+  })
+AddButton(Tab1o, {
+     Name = "auto chest",
+    Callback = function()
+      repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+      getgenv().Team = "Marines"
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/trongdeptraihucscript/Main/refs/heads/main/TN-Tp-Chest.lua"))()
+  end
+  })
