@@ -1,2 +1,1 @@
-loadstring(game:HttpGet("https://luacrack.site/raw.php/Quanghuy/raw/BearHudPremium.lua"))()
 loadstring(game:HttpGet("https://luacrack.site/raw.php/Quanghuy/raw/Test.txt"))()
